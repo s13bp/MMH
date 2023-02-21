@@ -2705,11 +2705,12 @@ h3 {
 
 .navbar-container {
     max-width: 100%;
+    max-height: 120px;
 }
 
 .header-navbar {
     padding: 15px 60px;
-    background-color: #fff;
+    background-color: #000000;
 }
 
 .navbar-logo {
@@ -2720,7 +2721,7 @@ h3 {
     -webkit-transition: color 400ms cubic-bezier(.165, .84, .44, 1);
     transition: color 400ms cubic-bezier(.165, .84, .44, 1);
     font-family: Gotham, sans-serif;
-    color: #1f1f22;
+    color: #dbdbdb;
     font-size: 15px;
     line-height: 25px;
     font-weight: 500;
@@ -2728,11 +2729,11 @@ h3 {
 }
 
 .navbar-link:hover {
-    color: #cd3df6;
+    color: #ffcc00;
 }
 
 .navbar-link.w--current {
-    color: #cd3df6;
+    color: #ffcc00;
 }
 
 .navbar-wrapper {
@@ -2748,7 +2749,7 @@ h3 {
 
 .navbar-menu {
     margin-left: auto;
-    background-color: #fff;
+    background-color: #000000;
 }
 
 .hero-video {
