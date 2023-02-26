@@ -5670,10 +5670,7 @@ h3 {
         display: block;
     }
     .core-team-grid {
-        -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-        -ms-grid-rows: auto auto auto auto;
-        grid-template-rows: auto auto auto auto;
+        display: block;
     }
     .core-team-grid.core-team-grid-sec {
         -ms-grid-rows: auto;
@@ -5689,8 +5686,8 @@ h3 {
         grid-auto-columns: 1fr;
         grid-column-gap: 30px;
         grid-row-gap: 30px;
-        -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
+        -ms-grid-columns: 1fr ;
+        grid-template-columns: 1fr ;
         -ms-grid-rows: auto auto;
         grid-template-rows: auto auto;
     }
