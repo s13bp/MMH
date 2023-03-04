@@ -2798,6 +2798,7 @@ h3 {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+    margin-bottom: -150px;
 }
 
 .hero-social-icons.hero-social-icons-nav {
@@ -2841,7 +2842,7 @@ h3 {
 .hero-heading {
     margin: 0;
     color: #fff;
-    font-size: 60px;
+    font-size: 40px;
     line-height: 70px;
     font-weight: 600;
     text-align: right;
@@ -2881,7 +2882,7 @@ h3 {
 
 .hero-heading.countdown-heading.hero-heading-mt-none {
     margin-bottom: 60px;
-    font-size: 60px;
+    font-size: 40px;
     line-height: 70px;
     font-weight: 600;
 }
