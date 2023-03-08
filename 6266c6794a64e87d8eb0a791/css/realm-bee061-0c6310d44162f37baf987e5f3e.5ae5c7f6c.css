@@ -2840,24 +2840,28 @@ h3 {
 }
 
 .hero-heading {
-    margin: 0;
+    margin: auto;
     color: #fff;
     font-size: 40px;
     line-height: 70px;
     font-weight: 600;
     text-align: right;
+    margin-top: -50vh;
+}
+.hero-headingz {
+    margin: auto;
+    color: #fff;
+    font-size: 40px;
+    line-height: 70px;
+    font-weight: 600;
+    text-align: right;
+   
 }
 
 .hero-heading.create-heading-title {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    margin-bottom: 56px;
-    -webkit-box-pack: end;
-    -webkit-justify-content: flex-end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
+  
+
+   
     text-align: left;
     text-transform: uppercase;
     text-shadow: 1px 1px 32px rgba(0, 0, 0, 0.24);
