@@ -140,6 +140,40 @@
 		z-index: 99999 !important;
 	}
 	</style>
+		<style>
+			.parent {
+				display: grid;
+				grid-template-columns: repeat(6, 1fr);
+				grid-template-rows: repeat(6, 1fr);
+				grid-column-gap: 0px;
+				grid-row-gap: 0px;
+				z-index: 99;
+				position: absolute;
+				padding: 10px 100px 0 100px;
+				width:100vw;
+	
+				}
+	
+				.div1 { grid-area: 2 / 1 / 4 / 4; }
+				.div2 { grid-area: 4 / 4 / 6 / 7; }
+				.div3 { grid-area: 2 / 1 / 3 / 4; }
+				.div4 { grid-area: 3 / 1 / 4 / 4; }
+				.div5 { grid-area: 4 / 4 / 5 / 7; }
+				.div6 { grid-area: 5 / 4 / 6 / 7; }
+		</style>
+		<style>
+			.kuku {
+				color:rgb(255, 255, 255);
+				 font-size:50px;
+				 line-height: 50px;
+				 letter-spacing: 4px;
+			}
+			.buku p {
+				color:white;
+				 font-size:30px;
+				 line-height: 30px;
+			}
+		</style>
 </head>
 
 <body>
@@ -148,43 +182,54 @@
 			<div class="navbar-container w-container">
 				<div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="header-navbar w-nav">
 					<div class="navbar-wrapper">
-						<a href="/" class="navbar-logo w-nav-brand"><img src="/LOGO.png" loading="lazy" alt="realm" style="height: 90px; width: auto;"/></a>
+						<a href="/" aria-current="page" class="navbar-logo w-nav-brand w--current"><img src="/LOGO.png" loading="lazy" alt="rmeta" style="height: 80px; width: auto;" /></a>
 						<nav role="navigation" class="navbar-menu w-nav-menu">
-							<nav role="navigation" class="navbar-menu w-nav-menu"><a href="/" aria-current="page" class="navbar-link w-nav-link w--current">Home</a><a href="/create.html" class="navbar-link w-nav-link">About us</a><a href="https://www.megametashop.com/" class="navbar-link w-nav-link">Store</a><a href="/about-us.html" class="navbar-link w-nav-link">Team</a>
-								<div class="hero-social-icons hero-social-icons-nav">
-									<a href="https://t.me/Enter_Realm" target="_blank" class="social-media-icon social-media-icon-nav w-inline-block"><img src="./6266c6794a64e87d8eb0a791/6266c6794a64e8058cb0a7c3_telegram.svg" loading="lazy" width="32" alt="telegram" /></a>
-									<a href="https://twitter.com/enter_realm" target="_blank" class="social-media-icon social-media-icon-nav w-inline-block"><img src="./6266c6794a64e87d8eb0a791/6266c6794a64e83673b0a7c4_twitter.svg" loading="lazy" width="32" alt="twitter" /></a>
-									<a href="https://discord.com/invite/enterrealm" target="_blank" class="social-media-icon social-media-icon-nav w-inline-block"><img src="./6266c6794a64e87d8eb0a791/6266c6794a64e847c6b0a7ff_discord.svg" loading="lazy" width="32" alt="discord" /></a>
-									<a href="https://enter-realm.medium.com/" target="_blank" class="social-media-icon social-media-icon-nav w-inline-block"><img src="./6266c6794a64e87d8eb0a791/6266c6794a64e87646b0a7c5_medium.svg" loading="lazy" width="32" alt="medium" /></a>
-								</div>
-							</nav>
-							<div class="navbar-menu-button w-nav-button">
-								<div class="w-embed">
-									<div id="nav-icon3"> <span></span> <span></span> <span></span> <span></span> </div>
-								</div>
+							<a href="/" aria-current="page" class="navbar-link w-nav-link w--current">Home</a>
+							<a href="/create.html" class="navbar-link w-nav-link">About us</a>
+							<a href="/create.html" class="navbar-link w-nav-link">Services</a>
+							<a href="https://www.megametashop.com/" class="navbar-link w-nav-link">Store</a>
+							<a href="/about-us.html" class="navbar-link w-nav-link">Team</a>
+							<a href="/create.html" class="navbar-link w-nav-link">About the CEO</a>
+					
+						</nav>
+						<div class="navbar-menu-button w-nav-button">
+							<div class="w-embed">
+								<div id="nav-icon3"> <span></span> <span></span> <span></span> <span></span> </div>
 							</div>
+						</div>
+		
 					</div>
 					<script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinMarquee.js"></script><div id="coinmarketcap-widget-marquee" coins="1,1027,825,1839,21524,2424,1975,3773,7080,21005,74,52,3155,5426,18876,3890,8916,512,2010,1966" currency="USD" theme="light" transparent="false" show-symbol-logo="true" style="z-index: 99; position: absolute;width: max-content;left: 0;"></div>
 				</div>
 			</div>
 		</div>
-		<div class="hero-section hero-section-create about-us-hero-section wf-section">
-			<div class="page-container w-container">
-				<div class="create-heading">
-					<h1 class="hero-heading create-heading-title">Meet the most experienced blockchain, stocks and Web3 enteprenuers</h1></div>
-			</div>
-		</div>
+		<div class="parent">
+				
+			<div class="div3 kuku"><h2>VISION</h2> </div>
+			<div class="div4 buku"><p>TO BREAK THE UNFAIR ,UNJUST AND BAD FINANCIAL SYSTEM OF WORLD THROUGH FINANACIAL EDUCATION AND DECENTRIALIZATION</p>  </div>
+			<div class="div5 kuku"><h1>MISSION</h1> </div>
+			<div class="div6 buku"> <p>CREATING WEALTH BEYOND BOUNDARIES BY  AVOIDING CENTRALIZATION OF THE MONEY SYSTEM  IN THE 21st  CENTUARY BUSINESS</p></div>
+		</div>	
+		<div data-w-id="5c8e6640-695f-3d31-281c-86e9a41b7610" style="opacity:0" class="hero-details-part">
 	
-			<div class="hero-video-wrapper">
-				<div class="hero-video">
-					<div data-poster-url="./6266c6794a64e87d8eb0a791/63dd07330f969a7dd88aaa8a_Website 15 Sec  2-1-poster-00001.jpg" data-video-urls="./6266c6794a64e87d8eb0a791/63dd07330f969a7dd88aaa8a_Website 15 Sec  2-1-transcode.mp4,./6266c6794a64e87d8eb0a791/63dd07330f969a7dd88aaa8a_Website 15 Sec  2-1-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" data-beta-bgvideo-upgrade="false" class="background-video w-background-video w-background-video-atom">
-						<video id="5c8e6640-695f-3d31-281c-86e9a41b760f-video" autoplay="" loop="" style="background-image:url(&quot;./6266c6794a64e87d8eb0a791/63dd07330f969a7dd88aaa8a_Website 15 Sec  2-1-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
-							<source src="/team.mp4" data-wf-ignore="true" />
-							<source src="/team.mp4" data-wf-ignore="true" />
-						</video>
+		
+		</div>
+			<div class="hero-section hero-section-create about-us-hero-section wf-section">
+			
+			
+	
+				<div class="hero-video-wrapper">
+					<div class="hero-video">
+						<div data-poster-url="./6266c6794a64e87d8eb0a791/63dd07330f969a7dd88aaa8a_Website 15 Sec  2-1-poster-00001.jpg" data-video-urls="./6266c6794a64e87d8eb0a791/63dd07330f969a7dd88aaa8a_Website 15 Sec  2-1-transcode.mp4,./6266c6794a64e87d8eb0a791/63dd07330f969a7dd88aaa8a_Website 15 Sec  2-1-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" data-beta-bgvideo-upgrade="false" class="background-video w-background-video w-background-video-atom">
+							<video id="5c8e6640-695f-3d31-281c-86e9a41b760f-video" autoplay="" loop="" style="background-image:url(&quot;./6266c6794a64e87d8eb0a791/63dd07330f969a7dd88aaa8a_Website 15 Sec  2-1-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
+								<source src="/team.mp4" data-wf-ignore="true" />
+								<source src="/team.mp4" data-wf-ignore="true" />
+							</video>
+						</div>
 					</div>
 				</div>
 			</div>
+
 			<div class="section-ten wf-section"><br><br><br>
 				<div class="page-container w-container">
 					<h4 class="title-dark title-white">Our Team</h4>
