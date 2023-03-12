@@ -10674,6 +10674,23 @@ background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.6131578947368
         border-radius: 10px;
         background-color: #c8c8c8;
     }
+    .parent {
+        display: block;
+        font-size: 20px; 
+        margin-top: 20vh;
+    }
+    .kuku p {
+        color:rgb(255, 255, 255);
+         font-size:30px;
+         line-height: 30px;
+         letter-spacing: 4px;
+    }
+    .buku p {
+        color:white;
+         font-size:20px;
+         line-height: 20px;
+    }
+
 
     
   }
