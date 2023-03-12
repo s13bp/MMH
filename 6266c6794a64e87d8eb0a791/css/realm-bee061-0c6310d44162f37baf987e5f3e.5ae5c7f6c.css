@@ -10631,7 +10631,7 @@ margin: 0 auto;
     }
     .hero-heading span {
       font-size: 45px;
-      margin-bottom: 160px;
+     
       font-family: 'Black Ops One', cursive;
       text-align: center;
   
@@ -10640,7 +10640,7 @@ margin: 0 auto;
       font-size: 20px;
       font-weight: 200;
       font-family: 'Raleway', sans-serif;
-      letter-spacing: 4px;
+      letter-spacing: 1px;
   
     }
     .hero-headingz {
