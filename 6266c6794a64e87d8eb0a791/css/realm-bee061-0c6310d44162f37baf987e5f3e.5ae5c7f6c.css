@@ -2470,9 +2470,11 @@ h3 {
 .button {
     padding: 16px 34px 17px;
     border-radius: 4px;
+    height: 100px;
+    transition: all 9s ease-in-out;
     background-color: transparent;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#df60bf), color-stop(98.12%, #c571e5));
-    background-image: linear-gradient(180deg, #df60bf, #c571e5 98.12%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#9dcfff), color-stop(98.12%, #7cc6ff));
+    background-image: linear-gradient(180deg, #9dcfff, #7cc6ff 98.12%);
     -webkit-transition: padding 200ms ease, margin 200ms ease, background-color 200ms ease, box-shadow 200ms ease;
     transition: padding 200ms ease, margin 200ms ease, background-color 200ms ease, box-shadow 200ms ease;
     font-family: Montserrat, sans-serif;
@@ -2484,9 +2486,9 @@ h3 {
     margin-right: 2px;
     margin-left: 2px;
     padding: 15px 32px 16px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#df60bf), color-stop(69%, #c571e5));
-    background-image: linear-gradient(180deg, #df60bf, #c571e5 69%);
-    box-shadow: 4px 4px 14px 5px rgba(197, 113, 229, 0.21);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#60dfa6), color-stop(69%, #71cae5));
+    background-image: linear-gradient(180deg, #60dfa6, #71cae5 69%);
+    box-shadow: 4px 4px 14px 5px rgba(0, 0, 0, 0.21);
 }
 
 .brand.br-footer {
@@ -2719,13 +2721,14 @@ h3 {
 
 .navbar-link {
     -webkit-transition: color 400ms cubic-bezier(.165, .84, .44, 1);
-    transition: color 400ms cubic-bezier(.165, .84, .44, 1);
+    transition: color 800ms cubic-bezier(.165, .84, .44, 1);
  font-family: 'Syne', sans-serif;
     color: #dbdbdb;
     font-size: 15px;
     line-height: 25px;
     font-weight: 500;
     text-transform: uppercase;
+
 }
 
 .navbar-link:hover {
