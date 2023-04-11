@@ -196,7 +196,493 @@
 				}
 		</style>
 
-
+<style>
+	.popup {
+	  display: none;
+	  position: fixed;
+	  padding: 10px;
+	  width: 350px;
+	  left: 50%;
+	  margin-left: -150px;
+	  height: 380px;
+	  top: 50%;
+	  margin-top: -150px;
+	  background: #FFF;
+	  border: 3px solid #F04A49;
+	  z-index: 20;
+	}
+	
+	#popup:after {
+	  position: fixed;
+	  content: "";
+	  top: 0;
+	  left: 0;
+	  bottom: 0;
+	  right: 0;
+	  background: rgba(0,0,0,0.5);
+	  z-index: -2;
+	}
+	
+	#popup:before {
+	  position: absolute;
+	  content: "";
+	  top: 0;
+	  left: 0;
+	  bottom: 0;
+	  right: 0;
+	  background: #FFF;
+	  z-index: -1;
+	}
+	
+	/* Styling buttons & webpage */
+	
+	body {
+	  background: offwhite;
+	  font-family: Arial, sans-serif;
+	  text-align: center;
+	}
+	
+	
+	p {
+		margin: 1em 0;
+	  font-size: 16px;
+	}
+	
+	
+	.popupk {
+	  display: none;
+	  position: fixed;
+	  padding: 10px;
+	  width: 350px;
+	  left: 50%;
+	  margin-left: -150px;
+	  height: 380px;
+	  top: 50%;
+	  margin-top: -150px;
+	  background: #FFF;
+	  border: 3px solid #F04A49;
+	  z-index: 20;
+	}
+	
+	#popupk:after {
+	  position: fixed;
+	  content: "";
+	  top: 0;
+	  left: 0;
+	  bottom: 0;
+	  right: 0;
+	  background: rgba(0,0,0,0.5);
+	  z-index: -2;
+	}
+	
+	#popupk:before {
+	  position: absolute;
+	  content: "";
+	  top: 0;
+	  left: 0;
+	  bottom: 0;
+	  right: 0;
+	  background: #FFF;
+	  z-index: -1;
+	}
+	
+	/* Styling buttons & webpage */
+	
+	body {
+	  background: offwhite;
+	  font-family: Arial, sans-serif;
+	  text-align: center;
+	}
+	
+	
+	p {
+		margin: 1em 0;
+	  font-size: 20px;
+	  line-height: 21px4w;
+	}
+	
+	
+	
+	.popup1 {
+	  display: none;
+	  position: fixed;
+	  padding: 10px;
+	  width: 350px;
+	  left: 50%;
+	  margin-left: -150px;
+	  height: 380px;
+	  top: 50%;
+	  margin-top: -150px;
+	  background: #FFF;
+	  border: 3px solid #F04A49;
+	z-index: 20;§qSH`2W32
+	}
+	
+	#popup1:after {
+	  position: fixed;
+	  content: "";
+	  top: 0;
+	  left: 0;
+	  bottom: 0;
+	  right: 0;
+	  background: rgba(0,0,0,0.5);
+	  z-index: -2;
+	}
+	
+	#popup1:before {
+	  position: absolute;
+	  content: "";
+	  top: 0;
+	  left: 0;
+	  bottom: 0;
+	  right: 0;
+	  background: #FFF;
+	  z-index: -1;
+	}
+	
+	
+	.popup2 {
+	  display: none;
+	  position: fixed;
+	  padding: 10px;
+	  width: 350px;
+	  left: 50%;
+	  margin-left: -150px;
+	  height: 380px;
+	  top: 50%;
+	  margin-top: -150px;
+	  background: #FFF;
+	  border: 3px solid #F04A49;
+	  z-index: 20;
+	}
+	
+	#popup2:after {
+	  position: fixed;
+	  content: "";
+	  top: 0;
+	  left: 0;
+	  bottom: 0;
+	  right: 0;
+	  background: rgba(0,0,0,0.5);
+	  z-index: -2;
+	}
+	
+	#popup2:before {
+	  position: absolute;
+	  content: "";
+	  top: 0;
+	  left: 0;
+	  bottom: 0;
+	  right: 0;
+	  background: #FFF;
+	  z-index: -1;
+	}
+	
+	
+	.popup3 {
+	  display: none;
+	  position: fixed;
+	  padding: 10px;
+	  width: 350px;
+	  left: 50%;
+	  margin-left: -150px;
+	  height: 380px;
+	  top: 50%;
+	  margin-top: -150px;
+	  background: #FFF;
+	  border: 3px solid #F04A49;
+	  z-index: 20;
+	}
+	
+	#popup3:after {
+	  position: fixed;
+	  content: "";
+	  top: 0;
+	  left: 0;
+	  bottom: 0;
+	  right: 0;
+	  background: rgba(0,0,0,0.5);
+	  z-index: -2;
+	}
+	
+	#popup3:before {
+	  position: absolute;
+	  content: "";
+	  top: 0;
+	  left: 0;
+	  bottom: 0;
+	  right: 0;
+	  background: #FFF;
+	  z-index: -1;
+	}
+	
+	
+	.popup4 {
+	  display: none;
+	  position: fixed;
+	  padding: 10px;
+	  width: 350px;
+	  left: 50%;
+	  margin-left: -150px;
+	  height: 380px;
+	  top: 50%;
+	  margin-top: -150px;
+	  background: #FFF;
+	  border: 3px solid #F04A49;
+	  z-index: 20;
+	}
+	
+	#popup4:after {
+	  position: fixed;
+	  content: "";
+	  top: 0;
+	  left: 0;
+	  bottom: 0;
+	  right: 0;
+	  background: rgba(0,0,0,0.5);
+	  z-index: -2;
+	}
+	
+	#popup4:before {
+	  position: absolute;
+	  content: "";
+	  top: 0;
+	  left: 0;
+	  bottom: 0;
+	  right: 0;
+	  background: #FFF;
+	  z-index: -1;
+	}
+	
+	
+	.popup5 {
+	  display: none;
+	  position: fixed;
+	  padding: 10px;
+	  width: 350px;
+	  left: 50%;
+	  margin-left: -150px;
+	  height: 380px;
+	  top: 50%;
+	  margin-top: -150px;
+	  background: #FFF;
+	  border: 3px solid #F04A49;
+	  z-index: 20;
+	}
+	
+	#popup5:after {
+	  position: fixed;
+	  content: "";
+	  top: 0;
+	  left: 0;
+	  bottom: 0;
+	  right: 0;
+	  background: rgba(0,0,0,0.5);
+	  z-index: -2;
+	}
+	
+	#popup5:before {
+	  position: absolute;
+	  content: "";
+	  top: 0;
+	  left: 0;
+	  bottom: 0;
+	  right: 0;
+	  background: #FFF;
+	  z-index: -1;
+	}
+	
+	
+	.popup6 {
+	  display: none;
+	  position: fixed;
+	  padding: 10px;
+	  width: 350px;
+	  left: 50%;
+	  margin-left: -150px;
+	  height: 380px;
+	  top: 50%;
+	  margin-top: -150px;
+	  background: #FFF;
+	  border: 3px solid #F04A49;
+	  z-index: 20;
+	}
+	
+	#popup6:after {
+	  position: fixed;
+	  content: "";
+	  top: 0;
+	  left: 0;
+	  bottom: 0;
+	  right: 0;
+	  background: rgba(0,0,0,0.5);
+	  z-index: -2;
+	}
+	
+	#popup6:before {
+	  position: absolute;
+	  content: "";
+	  top: 0;
+	  left: 0;
+	  bottom: 0;
+	  right: 0;
+	  background: #FFF;
+	  z-index: -1;
+	}
+	
+	
+	.popup7 {
+	  display: none;
+	  position: fixed;
+	  padding: 10px;
+	  width: 350px;
+	  left: 50%;
+	  margin-left: -150px;
+	  height: 380px;
+	  top: 50%;
+	  margin-top: -150px;
+	  background: #FFF;
+	  border: 3px solid #F04A49;
+	  z-index: 20;
+	}
+	
+	#popup7:after {
+	  position: fixed;
+	  content: "";
+	  top: 0;
+	  left: 0;
+	  bottom: 0;
+	  right: 0;
+	  background: rgba(0,0,0,0.5);
+	  z-index: -2;
+	}
+	
+	#popup7:before {
+	  position: absolute;
+	  content: "";
+	  top: 0;
+	  left: 0;
+	  bottom: 0;
+	  right: 0;
+	  background: #FFF;
+	  z-index: -1;
+	}
+	
+	
+	.popup8 {
+	  display: none;
+	  position: fixed;
+	  padding: 10px;
+	  width: 350px;
+	  left: 50%;
+	  margin-left: -150px;
+	  height: 380px;
+	  top: 50%;
+	  margin-top: -150px;
+	  background: #FFF;
+	  border: 3px solid #F04A49;
+	  z-index: 20;
+	}
+	
+	#popup8:after {
+	  position: fixed;
+	  content: "";
+	  top: 0;
+	  left: 0;
+	  bottom: 0;
+	  right: 0;
+	  background: rgba(0,0,0,0.5);
+	  z-index: -2;
+	}
+	
+	#popup8:before {
+	  position: absolute;
+	  content: "";
+	  top: 0;
+	  left: 0;
+	  bottom: 0;
+	  right: 0;
+	  background: #FFF;
+	  z-index: -1;
+	}
+	
+	
+	.popup9 {
+	  display: none;
+	  position: fixed;
+	  padding: 10px;
+	  width: 350px;
+	  left: 50%;
+	  margin-left: -150px;
+	  height: 380px;
+	  top: 50%;
+	  margin-top: -150px;
+	  background: #FFF;
+	  border: 3px solid #F04A49;
+	  z-index: 20;
+	}
+	
+	#popup9:after {
+	  position: fixed;
+	  content: "";
+	  top: 0;
+	  left: 0;
+	  bottom: 0;
+	  right: 0;
+	  background: rgba(0,0,0,0.5);
+	  z-index: -2;
+	}
+	
+	#popup9:before {
+	  position: absolute;
+	  content: "";
+	  top: 0;
+	  left: 0;
+	  bottom: 0;
+	  right: 0;
+	  background: #FFF;
+	  z-index: -1;
+	}
+	
+	.popup10 {
+	  display: none;
+	  position: fixed;
+	  padding: 10px;
+	  width: 350px;
+	  left: 50%;
+	  margin-left: -150px;
+	  height: 380px;
+	  top: 50%;
+	  margin-top: -150px;
+	  background: #FFF;
+	  border: 3px solid #F04A49;
+	  z-index: 20;
+	}
+	
+	#popup10:after {
+	  position: fixed;
+	  content: "";
+	  top: 0;
+	  left: 0;
+	  bottom: 0;
+	  right: 0;
+	  background: rgba(0,0,0,0.5);
+	  z-index: -2;
+	}
+	
+	#popup10:before {
+	  position: absolute;
+	  content: "";
+	  top: 0;
+	  left: 0;
+	  bottom: 0;
+	  right: 0;
+	  background: #FFF;
+	  z-index: -1;
+	}
+	
+	
+			</style>
 </head>
 
 <body>
@@ -209,7 +695,7 @@
 						<nav role="navigation" class="navbar-menu w-nav-menu">
 									<a href="/" aria-current="page" class="navbar-link w-nav-link w--current">Home</a>
 <a href="/about-us.html" class="navbar-link w-nav-link">About Us</a>
-							<a href="/services.html" class="navbar-link w-nav-link">Services</a>
+							
 							<a href="https://www.megametashop.com/" class="navbar-link w-nav-link">Store</a>
 							
 							<a href="https://sethcryptolord.info" target="_blank" class="navbar-link w-nav-link">About the CEO</a>					
@@ -253,6 +739,7 @@
 				</div>
 			</div>
 
+	
 			<div class="section-ten wf-section"><br><br><br>
 				<div class="page-container w-container">
 					<h4 class="title-dark title-white">Our Team</h4>
@@ -301,6 +788,165 @@
 						</div>
 					</div>
 	
+				</div>
+			</div>
+			<div class="section-third-create wf-section" >
+				<div class="page-container w-container" style="z-index: 10000;">
+					<h3 class="title-white" style="color: black;">SERVICES WE OFFER</h3>
+				 
+					<div class="realm-gird" style="padding: 0 60px;">
+						<button class="button" href="#" onclick="show('popup')">21ST CENTUARY BUSINESS</button>
+	
+						<!-- This is what will be included inside the popup -->
+						<div class="popup" id="popup">
+						<p>The digital economy and income refer to the way in which technology is changing the way we work and make money. As more businesses move online, new opportunities for remote work and entrepreneurship are emerging. This has led to the rise of the gig economy and the creation of new ways to earn income through digital platforms.</p>
+	
+						<a href="#" onclick="hide('popup')">Close</a>
+						</div>
+	
+	
+	
+	
+	
+	
+						<button class="button" href="#" onclick="show('popupk')">BLOCKCHAIN TECHNOLOGY</button>
+	
+						<div class="popupk" id="popupk">
+						<p>Blockchain technology is a decentralized and secure system for recording and verifying transactions. It uses a distributed ledger to keep track of data, which is stored on a network of computers. This makes it highly resistant to fraud and hacking, as the data is not stored in a central location that can be easily manipulated. Blockchain technology is used in various industries, including finance, healthcare, and supply chain management, and has the potential to revolutionize the way we conduct transactions and share information.</p>
+	
+						<a href="#" onclick="hide('popupk')">Close</a>
+						</div>
+	
+	
+	
+	
+	
+	
+						<button class="button" href="#" onclick="show('popup1')">DIGITAL ECONOMY AND INCOME</button>
+	
+						<div class="popup1" id="popup1">
+						<p>The digital economy and income refer to the way in which technology is changing the way we work and make money. As more businesses move online, new opportunities for remote work and entrepreneurship are emerging. This has led to the rise of the gig economy and the creation of new ways to earn income through digital platforms.</p>
+	
+						<a href="#" onclick="hide('popup1')">Close</a>
+						</div>
+	
+	
+	
+	
+	
+	
+						<button class="button" href="#" onclick="show('popup2')">WEB 2 / WEB 3</button>
+	
+						<div class="popup2" id="popup2">
+						<p>Web 2 and Web 3 refer to different eras of the internet. Web 2 refers to the current state of the internet, where users can interact with websites and social media platforms. Web 3 is the next iteration of the internet, which will be decentralized and powered by blockchain technology.</p>
+	
+						<a href="#" onclick="hide('popup2')">Close</a>
+						</div>
+	
+	
+	
+	
+	
+	
+						<button class="button" href="#" onclick="show('popup3')">METAVERSE</button>
+	
+						<div class="popup3" id="popup3">
+						<p>The metaverse is a virtual reality space that allows users to interact with each other and with digital objects in a three-dimensional environment. It is an immersive experience that is currently being developed by companies like Facebook and Google, and is expected to revolutionize the way we interact with technology.</p>
+	
+						<a href="#" onclick="hide('popup3')">Close</a>
+						</div>
+	
+	
+	
+	
+	
+	
+						<button class="button" href="#" onclick="show('popup4')">AFFILIATE MARKETING</button>
+	
+						<div class="popup4" id="popup4">
+						<p>Affiliate marketing is a type of marketing where individuals earn a commission by promoting products or services offered by another company. Affiliates typically use social media, blogs, or websites to promote these products and earn a percentage of any resulting sales.</p>
+	
+						<a href="#" onclick="hide('popup4')">Close</a>
+						</div>
+	
+	
+	
+	
+	
+	
+						<button class="button" href="#" onclick="show('popup5')">CRYPTOCCURENCY CLASSES</button>
+	
+						<div class="popup5" id="popup5">
+						<p>Cryptocurrency classes are educational courses that teach individuals about the basics of cryptocurrency, how to buy and sell digital assets, and how to use blockchain technology. These classes are designed to help individuals understand the potential benefits and risks of investing in cryptocurrencies.</p>
+	
+						<a href="#" onclick="hide('popup5')">Close</a>
+						</div>
+	
+	
+	
+	
+	
+	
+						<button class="button" href="#" onclick="show('popup6')">MENTORSHIP AND COACHING</button>
+	
+						<div class="popup6" id="popup6">
+						<p>Mentorship and coaching are tools for personal and professional development, where experienced individuals guide and support those who are seeking to learn and grow. Mentors and coaches offer advice, guidance, and support to help their mentees and clients achieve their goals and overcome challenges.</p>
+	
+						<a href="#" onclick="hide('popup6')">Close</a>
+						</div>
+	
+	
+	
+	
+	
+	
+						<button class="button" href="#" onclick="show('popup7')">FINANCIAL EDUCATION</button>
+	
+						<div class="popup7" id="popup7">
+						<p>Financial education is the process of learning how to manage money, including budgeting, saving, investing, and avoiding debt. By becoming financially literate, individuals can make informed decisions about their finances and plan for their future.</p>
+	
+						<a href="#" onclick="hide('popup7')">Close</a>
+						</div>
+	
+	
+	
+	
+	
+	
+						<button class="button" href="#" onclick="show('popup8')">NON FURGIBLE TOKENS</button>
+	
+						<div class="popup8" id="popup8">
+						<p>Non-fungible tokens, or NFTs, are a type of digital asset that represent ownership of a unique item, such as art, music, or video. Unlike traditional currencies, NFTs cannot be exchanged for an equal value, as each one is one-of-a-kind and has its own value. They are often bought and sold using cryptocurrency.</p>
+	
+						<a href="#" onclick="hide('popup8')">Close</a>
+						</div>
+	
+	
+	
+	
+	
+	
+						<button class="button" href="#" onclick="show('popup9')">MEMECOINS</button>
+	
+						<div class="popup9" id="popup9">
+						<p>Memecoins are a type of cryptocurrency that are based on popular internet memes or cultural references. They are often created as a joke or satire, but have gained popularity as a form of investment. Memecoins are highly volatile and carry a high risk of loss.</p>
+	
+						<a href="#" onclick="hide('popup9')">Close</a>
+						</div>
+	
+	
+	
+	
+	
+	
+						<button class="button" href="#" onclick="show('popup10')">LEARN2EARN</button>
+	
+						<div class="popup10" id="popup10">
+						<p>Learn2Earn is a term used to describe the concept of using educational resources to learn new skills and earn income. By learning new skills, individuals can increase their earning potential and achieve financial independence. This can be done through online courses, mentorship, or coaching.</p>
+	
+						<a href="#" onclick="hide('popup10')">Close</a>
+						</div>
+					</div>
 				</div>
 			</div>
 		<div class="second-section-about wf-section">
@@ -405,6 +1051,18 @@
 		});
 	});
 	</script>
+				<script>
+					$ = function(id) {
+					return document.getElementById(id);
+					}
+			
+					var show = function(id) {
+						$(id).style.display ='block';
+					}
+					var hide = function(id) {
+						$(id).style.display ='none';
+					}
+				</script>
 
 
 </body>
